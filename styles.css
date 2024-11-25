@@ -220,3 +220,19 @@ section p {
     animation: fadeInUp 1.5s ease;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
 }
+.map-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007BFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: bold;
+            text-align: center;
+            border: none;
+            cursor: pointer;
+        }
+        .map-button:hover {
+            background-color: #0056b3;
+        }

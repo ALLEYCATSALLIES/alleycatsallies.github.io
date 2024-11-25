@@ -1,0 +1,75 @@
+ body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: url('img/cericate.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #fff;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.6);
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        h2 {
+            font-size: 2em;
+            margin: 20px 0;
+        }
+        .gallery-section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery-item {
+            width: 200px;
+            border: 2px solid #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            background-color: #333;
+            color: #fff;
+            text-align: left;
+            position: relative;
+        }
+        .gallery-item img {
+            width: 100%;
+            height: auto;
+        }
+        .gallery-item video {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+        .info {
+            padding: 10px;
+            font-size: 0.9em;
+            display: none;
+        }
+        .read-more-btn {
+            display: block;
+            padding: 10px;
+            text-align: center;
+            background-color: #007BFF;
+            color: #fff;
+            cursor: pointer;
+            border: none;
+            width: 100%;
+            transition: background 0.3s;
+        }
+        .read-more-btn:hover {
+            background-color: #0056b3;
+        }
+        footer {
+            margin-top: 20px;
+            font-size: 1em;
+            background-color: rgba(0, 0, 0, 0.7);
+            padding: 10px;
+            border-radius: 5px;
+        }
